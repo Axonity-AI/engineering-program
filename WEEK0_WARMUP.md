@@ -13,9 +13,9 @@ Two reasons, and it's worth being straight about both.
 failing, CI fixed, review, ADR, merge — on something with **no research risk**.
 When Phase 2 gets hard, you'll be fighting the research problem only, not the
 research problem *and* an unfamiliar process at the same time. It's also a
-project where **testing is the product**, which is the skill you rated yourself
-lowest on and said you wanted to improve. Hard to avoid writing tests for a tool
-whose entire job is checking things.
+project where **testing is the product** — usually the weakest skill coming out of
+undergrad, and hard to avoid practising in a tool whose entire job is checking
+things.
 
 **For Axonity:** it's genuinely useful, though it's worth being honest about the
 scale. See "what it's actually for" below.

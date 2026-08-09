@@ -193,9 +193,9 @@ accuracy-loss boundary sits; when quantisation calibration data is misleading.
 **Compute:** low, mostly inference. **Hardest unknown:** measurement noise. Benchmarking
 honestly is much harder than it looks, and this project lives or dies on it.
 
-**Note:** most directly attacks testing, Docker and deployment — your three lowest
-self-ratings. Also the least "read a paper" of the list, which cuts against what you said
-motivates you.
+**Note:** this is the entry that most directly attacks testing, Docker and deployment —
+the areas new grads are usually weakest in. It's also the least "read a paper" of the
+list, so it's a poor fit if research depth is what motivates you.
 
 ---
 
@@ -779,19 +779,19 @@ Transparency on the curation, so you can push back if something looks wrong:
 
 | Cut | Reason |
 |---|---|
-| ScanTrust (MRI reconstruction) | Your capstone already covers medical imaging + CV. `ClinicalScribe` covers healthcare from the language side instead, which is new ground for you. |
+| ScanTrust (MRI reconstruction) | Medical imaging + CV is already well covered by typical capstone work. `ClinicalScribe` reaches healthcare from the language side instead, which is usually new ground. |
 | DriveWorld, TrafficMind, GridPilot, SiliconPilot, ArenaMind | All reinforcement learning. `GripForge` represents the category; five variants would crowd out other sectors. |
 | AgroScout | Overlaps `GeoSentinel` — both aerial imagery segmentation. |
 | WeatherScale, MatForge (materials) | Overlap `FlowTwin` and `MolForge` respectively. |
 | Generic RAG chatbots, summarisation apps, agent-swarm demos | Not for redundancy — because they're **easy to scaffold and show weak evidence of engineering judgment**. `EvalForge`, `AgentProof` and `CompliAgent` cover LLM work through its genuinely hard parts: measurement, reliability and verifiable grounding. |
-| Frontend-led work | Your portfolio site already covers it. |
+| Frontend-led work | A personal site or similar usually covers this already. |
 
-**One correction worth stating plainly.** An earlier version of this document cut all
-LLM/RAG/agent projects on the grounds that Erseno already proved that skill. That was
-wrong: the public Erseno repo is currently a scaffold — a handful of commits, config
-files and an empty app directory — so an employer clicking it sees nothing.
+**A note on how this list gets curated.** Projects are cut for *redundancy* — because
+you already have public evidence of that skill — or for *weak signal*, because they're
+easy to scaffold and show little about your judgment. Those are different reasons and
+worth keeping apart.
 
-Your experience may well be real, but **the evidence isn't public yet**, and the rule this
-whole program runs on is that no claim counts without evidence behind it. That's why the
-LLM projects are back on the list, and it's worth applying the same test to everything
-else on your resume.
+The redundancy test is specifically about **public evidence**, not experience. Work you
+did but can't show doesn't count, because an employer clicking a link sees only what's
+there. If something on your resume has no repo behind it, that's an argument for
+building evidence in that area, not for skipping it.

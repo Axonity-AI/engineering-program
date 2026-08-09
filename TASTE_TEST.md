@@ -36,7 +36,7 @@ own interests is worth, which is worth knowing well beyond this project.
 
 ### 2. Write your reaction before discussing it
 
-Finish the exercise, write the reaction, *then* talk to Anurag about it. Not the
+Finish the exercise, write the reaction, *then* talk to your mentor about it. Not the
 other way around.
 
 This one is not bureaucracy. Once you've heard someone else's opinion — 
@@ -63,16 +63,16 @@ At the end you'll rank all six. Every justification must be **about the work
 itself** — what you were doing, hour to hour, and how it felt.
 
 Reasoning from career labels is explicitly disallowed. "ML engineers earn more,"
-"computer vision is what's hot," "this is what Anurag does" — these are not
+"computer vision is what's hot," "this is what my mentor does" — these are not
 reasons, and if they're doing the work then this whole week was wasted. There's
 no wrong answer here. Landing on RF signal processing or graph analytics is a
 completely fine outcome, and the project will adapt.
 
-### 5. Anurag stays quiet
+### 5. Your mentor stays quiet
 
-He'll write his own observations independently and won't share any preference
+They'll write their own observations independently and won't share any preference
 until all six are done and your ranking is written. Then you compare notes. If
-he steers you mid-week, the experiment is contaminated and we've learned nothing.
+they steer you mid-week, the experiment is contaminated and we've learned nothing.
 
 ---
 
@@ -169,7 +169,7 @@ producing confident output that is silently invalid. Step 3/4 is the payload.
 
 ## Exercise 5 — Experimental rigor
 
-**Maps to:** Sim2Inspect, GeoSentinel, PitchIQ — and honestly, all ten
+**Maps to:** Sim2Inspect, GeoSentinel, PitchIQ — and honestly, all nineteen
 
 **Setup:** Any trained classifier. Reuse one of yours if it's easiest.
 
@@ -223,7 +223,9 @@ you outsource the hand-labelling, the exercise measures nothing.
 
 ## The write-up
 
-Per exercise, a short markdown file in `taste-test/`:
+Per exercise, a short markdown file in **`taste-test/` in this repository**
+(`Axonity-AI/engineering-program`) — committed via a PR like anything else, so
+the write-ups are reviewable and the habit stays consistent:
 
 ```markdown
 # Exercise N — <area>
