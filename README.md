@@ -43,8 +43,8 @@ commit format, ADRs — written assuming you've never done any of it.
 | Phase | Weeks | What you do | What exists at the end |
 |---|---|---|---|
 | **0 — Onboard** | 1 | Build the repo auditor ([WEEK0_WARMUP.md](WEEK0_WARMUP.md)) | A merged PR, a CI run you broke and fixed, one ADR |
-| **1 — Discover** | 2 – 3.5 | 5 taste-test exercises ([TASTE_TEST.md](TASTE_TEST.md)), then 2 feasibility spikes ([FEASIBILITY.md](FEASIBILITY.md)) | Written reactions, 2 feasibility notes, a decision |
-| **2 — Build V1** | 3.5 – 8 | The project ([CANDIDATES.md](CANDIDATES.md)) | Working system, benchmark, ablations, ADRs |
+| **1 — Discover** | 2 – 4 | 6 taste-test exercises ([TASTE_TEST.md](TASTE_TEST.md)), then 2 feasibility spikes ([FEASIBILITY.md](FEASIBILITY.md)) | Written reactions, 2 feasibility notes, a decision |
+| **2 — Build V1** | 4 – 8 | The project ([CANDIDATES.md](CANDIDATES.md)) | Working system, benchmark, ablations, ADRs |
 | **3 — Productionize** *(if extended)* | 9+ | Tests, cloud deploy, monitoring, load testing | Deployed service, real coverage, technical report, demo video, postmortem |
 
 Phase 0 is deliberately low-stakes. Its purpose is to get the workflow into
@@ -72,12 +72,39 @@ afterthoughts:
   changed, what you'd do next.
 - **ADRs** for the real decisions, written as you go rather than reconstructed
   at the end.
+- **An operational dashboard** — an at-a-glance view of whatever you built: current
+  metrics, recent runs, where it's failing. Every project ships one. It's the fastest
+  way to make work legible to someone who won't read your code, and it doubles as the
+  demo surface.
+- **A one-page decision brief** per major result, written for a non-technical reader:
+  what was measured, what it means, what you recommend. Not the benchmark table — the
+  *decision*. This is the artifact most engineers can't produce and most managers need.
 
 The report and the ADRs are the part that separates this from a repo with a nice
 screenshot. A negative result you measured properly is worth more in an
 interview than a demo that works for reasons you can't explain.
 
 ---
+
+## On explaining your work
+
+As routine technical tasks automate, the bottleneck in most engineering
+organisations moves to communication — and the specific, valuable version of that
+is translating a technical result into a decision someone can act on. It's a large
+part of what separates a senior engineer from a productive one, and it's practised
+deliberately here rather than left to chance:
+
+- The **decision brief** above, for every significant result.
+- The **weekly demo presented to a non-expert.** Anurag will sometimes play the
+  client or the executive rather than the engineer — assume no context.
+- **At least one result per phase gets challenged.** He'll push back on a
+  conclusion and you either defend it with evidence or revise it. That's the real
+  version of this interaction, rehearsed somewhere safe.
+
+**What this can't give you, honestly:** emotional intelligence and leading
+interdisciplinary teams are real skills, and you can't get them from a solo
+project — there's no team. Those come from working with actual colleagues. Worth
+knowing that's a gap this doesn't close, rather than assuming it does.
 
 ## Working agreement
 

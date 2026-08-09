@@ -1,6 +1,6 @@
 # Phase 1a — The Taste Test
 
-Five exercises. One full day each. About a week.
+Six exercises. One full day each. About a week and a half.
 
 ## Why this exists
 
@@ -23,7 +23,7 @@ you're actually sampling, because that hour is most of the job.
 ## The rules that make this worth doing
 
 Read these before exercise 1. They're the difference between a real experiment
-and five days of going through the motions.
+and a week and a half of going through the motions.
 
 ### 1. Predict before you start
 
@@ -59,7 +59,7 @@ explanation are hard to fake and hard to talk yourself into.
 
 ### 4. Rank on the work, not the label
 
-At the end you'll rank all five. Every justification must be **about the work
+At the end you'll rank all six. Every justification must be **about the work
 itself** — what you were doing, hour to hour, and how it felt.
 
 Reasoning from career labels is explicitly disallowed. "ML engineers earn more,"
@@ -71,7 +71,7 @@ completely fine outcome, and the project will adapt.
 ### 5. Anurag stays quiet
 
 He'll write his own observations independently and won't share any preference
-until all five are done and your ranking is written. Then you compare notes. If
+until all six are done and your ranking is written. Then you compare notes. If
 he steers you mid-week, the experiment is contaminated and we've learned nothing.
 
 ---
@@ -138,7 +138,9 @@ Others find it maddening. Both reactions are informative and neither is wrong.
 
 ## Exercise 4 — Pick one: signals *or* graphs
 
-**Maps to:** SpectraGuard *or* ThreatGraph
+**Maps to:** SpectraGuard, ThreatGraph, MolForge — and Option B is also the core
+skill in QuantRisk, where leaking future information is the single most common way
+financial models look brilliant and are worthless.
 
 Choose whichever sounds *less* appealing. You'll learn more from it.
 
@@ -189,6 +191,36 @@ abilities, and the second one is rarer.
 
 ---
 
+## Exercise 6 — LLM engineering, with rigor
+
+**Maps to:** EvalForge, AgentProof, CompliAgent, InsightBoard, ClinicalScribe
+
+**Setup:** Any LLM API and about 30 examples of a task with a right-ish answer —
+summarisation, extraction, classification, whatever you like.
+
+**Do this:**
+1. Run the task. Collect the outputs.
+2. Write an **LLM-as-judge** prompt that scores each output. Run it. You now have
+   a quality number.
+3. Now **hand-label the same 30 yourself.** Properly. It's tedious; that's the point.
+4. **Measure the agreement** between your labels and the judge's. Not "do they
+   look similar" — compute it.
+5. Look hard at every case where you and the judge disagreed. Who was right?
+
+**The point:** step 4 is where it lands. The judge will not agree with you as much
+as you assumed, and the disagreements will not be random — judges tend to have
+systematic biases, like preferring longer, more confident-sounding answers.
+
+The moment you see your quality metric is itself unreliable is the moment LLM
+engineering stops being prompt-writing and becomes engineering. Roughly 95% of
+enterprise LLM projects fail, and this is the thing they mostly failed to do.
+
+**Note:** this is the one exercise where an AI assistant can do the whole task
+badly and you'd never notice. Step 3 in particular has to be your own labour. If
+you outsource the hand-labelling, the exercise measures nothing.
+
+---
+
 ## The write-up
 
 Per exercise, a short markdown file in `taste-test/`:
@@ -215,7 +247,7 @@ Per exercise, a short markdown file in `taste-test/`:
 answer — arguably more useful than enthusiasm.>
 ```
 
-Then a final `taste-test/RANKING.md`: all five ranked, each with a justification
+Then a final `taste-test/RANKING.md`: all six ranked, each with a justification
 **about the work**, plus an explicit note on where your predictions were wrong.
 
 That last section is the one to spend real time on.
