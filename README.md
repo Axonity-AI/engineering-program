@@ -5,41 +5,47 @@ project, how you build it, and what you walk away with.
 
 ---
 
-## Start here — your first day
+## Start here
 
-Work through these in order. It should take most of a day.
+Two stages. **Stage 1 is reading and thinking — a few hours, do it before your first
+working session.** Stage 2 is hands-on and begins once that session is scheduled.
 
-**1. Get access.**
-Accept the GitHub invitations in your email — one to the `Axonity-AI` organisation,
-one to this repository. You can't do step 5 without org membership, so chase it if
-it hasn't arrived.
+### Stage 1 — orientation (start here, a few hours)
 
-**2. Set up your machine.**
-- Git, configured with your name and email
-- Python 3.11
-- The [GitHub CLI](https://cli.github.com/) (`gh`), then `gh auth login`
-- Confirm it works: `gh repo list Axonity-AI`
+**1. Check your access.**
+You should have write access to this repository. If you're reading this, you're in.
+Everything else you need is public.
 
-**3. Read [ONBOARDING.md](https://github.com/Axonity-AI/project-template/blob/main/ONBOARDING.md)** — about 15 minutes.
+**2. Read [ONBOARDING.md](https://github.com/Axonity-AI/project-template/blob/main/ONBOARDING.md)** — about 15 minutes.
 The day-to-day mechanics: branches, pull requests, CI, commit format, ADRs. Written
-assuming you've never worked this way before. **Don't skip this** — everything after
-it assumes you've read it.
+assuming you've never worked this way before. **Don't skip it** — everything later
+assumes you've read it.
 
-**4. Skim [CANDIDATES.md](CANDIDATES.md) — about 20 minutes. Do not choose anything.**
-Nineteen projects grouped by industry. Read the overview diagram and summary table,
-then read properly under one or two industries that catch your eye. You'll choose in
-Phase 1, after actually trying things. Choosing now defeats the point.
+**3. Read the rest of this README** — about 10 minutes.
+The phases, what "finished" means, and the working agreement. This is the shape of
+the next two months.
 
-**5. Start Phase 0: [WEEK0_WARMUP.md](WEEK0_WARMUP.md).**
-Create your repo from the template, scaffold it, get one check working. This is the
-warm-up — low stakes on purpose.
+**4. Read [CANDIDATES.md](CANDIDATES.md) — about 30 minutes. Don't choose anything yet.**
+Nineteen projects grouped by industry. Start with the overview diagram and summary
+table, then read properly under two or three industries that catch your eye.
 
-### Done with day one when
+You will *want* to pick a favourite. Resist it — you'll choose in Phase 1 after
+actually trying things, and a preference formed from reading is mostly a preference
+about job titles. What's useful now is **reactions**: which ones you don't
+understand, which sound tedious, which you'd want to ask about.
 
-- [ ] You can run `gh repo list Axonity-AI` successfully
-- [ ] You've read ONBOARDING.md
-- [ ] Your warm-up repo exists, scaffolded from the template
-- [ ] You're on a branch with at least one commit
+**Done with stage 1 when** you can describe in one sentence what the next two months
+look like, and you have real questions about at least three projects. Bring those to
+the first session — questions, not a decision.
+
+### Stage 2 — hands-on (once your first session is scheduled)
+
+**5. Set up your machine.** Git configured, Python 3.11, the
+[GitHub CLI](https://cli.github.com/) (`gh auth login`).
+
+**6. Start Phase 0: [WEEK0_WARMUP.md](WEEK0_WARMUP.md).** A repo gets set up for you
+at the start of this stage; then you scaffold it and get one check working. Low
+stakes on purpose.
 
 ### Done with week one when
 
@@ -57,11 +63,11 @@ read them all up front.
 
 | # | Document | Time | Read it when |
 |---|---|---|---|
-| 1 | [ONBOARDING.md](https://github.com/Axonity-AI/project-template/blob/main/ONBOARDING.md) | 15 min | Day one, before touching anything |
-| 2 | This README | 10 min | Day one |
-| 3 | [WEEK0_WARMUP.md](WEEK0_WARMUP.md) | 10 min | Day one, then work from it all week |
-| 4 | [CANDIDATES.md](CANDIDATES.md) | 20 min skim | Day one skim; properly in Phase 1 |
-| 5 | [TASTE_TEST.md](TASTE_TEST.md) | 15 min | Start of week 2 |
+| 1 | [ONBOARDING.md](https://github.com/Axonity-AI/project-template/blob/main/ONBOARDING.md) | 15 min | **Stage 1** — before anything else |
+| 2 | This README | 10 min | **Stage 1** |
+| 3 | [CANDIDATES.md](CANDIDATES.md) | 30 min | **Stage 1** — read, don't choose |
+| 4 | [WEEK0_WARMUP.md](WEEK0_WARMUP.md) | 10 min | Stage 2, then work from it all week |
+| 5 | [TASTE_TEST.md](TASTE_TEST.md) | 15 min | Start of Phase 1 |
 | 6 | [FEASIBILITY.md](FEASIBILITY.md) | 10 min | After the taste test |
 | — | [ENGINEERING_STANDARDS.md](https://github.com/Axonity-AI/project-template/blob/main/ENGINEERING_STANDARDS.md) | 30 min | Whenever you want the *why* behind the process |
 
